@@ -1,4 +1,4 @@
-// PotatoLang 1.0.0 Parser
+// PotatoLang 1.0.1 Parser
 // By aPpLegUo
 #include <iostream>
 #include <string>

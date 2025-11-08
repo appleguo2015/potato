@@ -1,4 +1,4 @@
-# Potato Lang 1.0.0
+# Potato Lang 1.0.1
 By aPpLegUo
 
 ### i 
