@@ -16,6 +16,10 @@ out input text
 begin of annotation
 ### ATO
 end of annotation
+### ?
+judge is input first letter are equal after "?"
+#### `testcodes 3`
+#### this code means if the first letter of input is "n", output input text.
 #### just that
 
 ### Hello World

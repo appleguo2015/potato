@@ -1,4 +1,7 @@
 ===TESTCODES===
+1.
 iout`; POT this code can get user input and output it. ATO
-
+2.
 out "hello world"n; out "what's your name? "; i out "hello, "`"!"; POT hello world! ATO
+3.
+i ?`n out `; POT if the first letter of input is "n", output input text. ATO

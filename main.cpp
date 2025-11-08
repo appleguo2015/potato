@@ -11,12 +11,13 @@ int main() {
     char code[32767];
     bool isAnn = false;
     bool isStr = false;
+    bool run = true;
     char input[32767] = "have not input";
     cin.getline(code, 32767);
     for(int i = 0; i < strlen(code); i++) {
         if(code[i] == 'P' && code[i + 1] == 'O' && code[i + 2] == 'T') isAnn = true;
         if(code[i] == 'A' && code[i + 1] == 'T' && code[i + 2] == 'O') isAnn = false;
-        if(!isAnn) {
+        if(!isAnn && run) {
             if (code[i] == 'O' && code[i + 1] == 'U' && code[i + 2] == 'T' || code[i] == 'o' && code[i + 1] == 'u' && code[i + 2] == 't') {
                 for (int j = i + 3; j < strlen(code); j++) {
                     if (code[j] == ';') break;
@@ -34,6 +35,19 @@ int main() {
             }
             else if (code[i] == 'i') {
                 scanf("%32766s", input);
+            }
+            else if (code[i] == '?') {
+                for (int j = i + 1; j < strlen(code); j++) {
+                    if (input[0] == code[j]) {
+                        while (code[i] != ';') run = false, i++; run = true;
+                        break;
+                    }
+                    else {
+                        run = true;
+                        i++;
+                        break;
+                    }
+                }
             }
         }
     }
