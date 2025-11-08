@@ -38,13 +38,15 @@ int main() {
             }
             else if (code[i] == '?') {
                 for (int j = i + 1; j < strlen(code); j++) {
-                    if (input[0] == code[j]) {
-                        while (code[i] != ';') run = false, i++; run = true;
+                    if (input[0] == code[j + 1]) {
+                        run = true;
                         break;
                     }
                     else {
+                        while (code[i] != ';') {
+                            run = false, i++;
+                        }
                         run = true;
-                        i++;
                         break;
                     }
                 }
