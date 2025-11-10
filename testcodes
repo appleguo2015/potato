@@ -1,7 +1,7 @@
 ===TESTCODES===
 1.
-iout`; POT this code can get user input and output it. ATO
+iout`; POT this code can get user input and output it. ATO q
 2.
-out "hello world"n; out "what's your name? "; i out "hello, "`"!"; POT hello world! ATO
+out "hello world"n; out "what's your name? "; i out "hello, "`"!"; POT hello world! ATO q
 3.
-i ?`n out `; POT if the first letter of input is "n", output input text. ATO
+i ?`n out `; POT if the first letter of input is "n", output input text. ATO q

@@ -20,6 +20,18 @@ end of annotation
 judge is input first letter are equal after "?"
 #### `testcodes 3`
 #### this code means if the first letter of input is "n", output input text.
+### q
+quit program with code 0
+### a+b
+a addition b
+### a-b
+a subtraction b
+### a*b
+a multiplication b
+### a/b
+a division b
+### a%b
+a mod b
 #### just that
 
 ### Hello World
