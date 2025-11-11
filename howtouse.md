@@ -1,4 +1,4 @@
-# Potato Lang 1.0.1
+# Potato Lang 1.0.2
 By aPpLegUo
 
 ### i 
@@ -16,8 +16,10 @@ out input text
 begin of annotation
 ### ATO
 end of annotation
-### ?
+### ?`
 judge is input first letter are equal after "?"
+### ?=1
+if answer is equal 1, do code after that
 #### `testcodes 3`
 #### this code means if the first letter of input is "n", output input text.
 ### q
