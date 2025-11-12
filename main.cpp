@@ -41,10 +41,6 @@ int main() {
                     }
                     else if (isStr) printf("%c", code[j]);
                     else if (code[j] == 'n' && !isStr) printf("\n");
-                    else{
-                        cerr << "not found a available output format" << endl;
-                        return 1;
-                    }
                 }
             }
             else if (code[i] == 'i') {

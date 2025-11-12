@@ -5,3 +5,5 @@ iout`; POT this code can get user input and output it. ATO q
 out "hello world"n; out "what's your name? "; i out "hello, "`"!"; POT hello world! ATO q
 3.
 i ?`n out `; POT if the first letter of input is "n", output input text. ATO q
+4.
++out anlol; POT output answer , newline, and lol ATO q

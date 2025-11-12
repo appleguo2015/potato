@@ -10,6 +10,8 @@ out "text"
 ### out `;
 out input text
 #### if you haven't write something, the parser'll be output "have not input".
+### out a;
+out answer
 ### out n;
 "\n"
 ### POT
@@ -34,6 +36,8 @@ a multiplication b
 a division b
 ### a%b
 a mod b
+### lol
+LOL😂
 #### just that
 
 ### Hello World
