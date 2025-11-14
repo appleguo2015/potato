@@ -24,7 +24,7 @@ int main() {
                 for (int j = i + 3; j < strlen(code); j++) {
                     // GET OUT!!!
                     if (code[j] == ';') break;
-                    if (code[j] == 'a') printf("%f", answer);
+                    if (code[j] == 'a' && !isStr) printf("%f", answer);
                     if (code[j] == 'l' && code[j + 1] == 'o' && code[j + 2] == 'l') {
                         // LOL😂
                         printf("LOL");
