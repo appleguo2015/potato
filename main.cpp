@@ -6,9 +6,9 @@
 using namespace std;
 
 int main() {
-    printf("Potato Programming Language 1.0.2 Parser\n");
+    printf("Potato Programming Language 1.0.3 Parser\n");
     printf("Enter code (max 20 characters): ");
-    // I THINK I MADE A SHIT
+    // I THINK I MADE A COOL LANGUAGE LIKE A ESOLANG
     char code[32767];
     float answer = 1;
     bool isAnn = false;
@@ -17,8 +17,22 @@ int main() {
     char input[32767] = "have not input";
     cin.getline(code, 32767);
     for(int i = 0; i < strlen(code); i++) {
-        if(code[i] == 'P' && code[i + 1] == 'O' && code[i + 2] == 'T') isAnn = true; // POTATO IS MY FAVORITE!!!
-        if(code[i] == 'A' && code[i + 1] == 'T' && code[i + 2] == 'O') isAnn = false;
+        if(code[i] == 'p' && code[i + 1] == 'a' && code[i + 2] == 't' && code[i + 3] == 'o' && code[i + 4] == 't' && code[i + 5] == 'a') {
+            // P A T O T A
+            i += 5;
+            printf("patota! (.' .)\n");
+            //               ^^^^this is a potato
+            // I REALLY EXPECT YOU TO SAY "PATOTA"
+        }
+        if(code[i] == 'P' && code[i + 1] == 'O' && code[i + 2] == 'T') {
+            isAnn = true;
+            i += 2; // BRO I REALLY FORGET THIS IN THE FIRST VERSION
+        }
+        if(code[i] == 'A' && code[i + 1] == 'T' && code[i + 2] == 'O') {
+            isAnn = false;
+            i += 2;
+        }
+        // POTATO IS MY FAVORITE!!!
         if(!isAnn && run) {
             if (code[i] == 'O' && code[i + 1] == 'U' && code[i + 2] == 'T' || code[i] == 'o' && code[i + 1] == 'u' && code[i + 2] == 't') {
                 for (int j = i + 3; j < strlen(code); j++) {

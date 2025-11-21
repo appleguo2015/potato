@@ -7,3 +7,5 @@ out "hello world"n; out "what's your name? "; i out "hello, "`"!"; POT hello wor
 i ?`n out `; POT if the first letter of input is "n", output input text. ATO q
 4.
 +out anlol; POT output answer , newline, and lol ATO q
+5.
+patotaq
