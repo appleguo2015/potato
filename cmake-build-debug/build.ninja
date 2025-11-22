@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/jerry/potato/cmake-build-debug/
 
 build cmake_object_order_depends_target_potato: phony || CMakeFiles/potato.dir
 
-build CMakeFiles/potato.dir/main.cpp.o: CXX_COMPILER__potato_unscanned_Debug /Users/jerry/potato/main.cpp || cmake_object_order_depends_target_potato
-  DEP_FILE = CMakeFiles/potato.dir/main.cpp.o.d
+build CMakeFiles/potato.dir/fileRunner.cpp.o: CXX_COMPILER__potato_unscanned_Debug /Users/jerry/potato/fileRunner.cpp || cmake_object_order_depends_target_potato
+  DEP_FILE = CMakeFiles/potato.dir/fileRunner.cpp.o.d
   FLAGS = -g -std=gnu++2a -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/potato.dir
   OBJECT_FILE_DIR = CMakeFiles/potato.dir
@@ -63,7 +63,7 @@ build CMakeFiles/potato.dir/main.cpp.o: CXX_COMPILER__potato_unscanned_Debug /Us
 #############################################
 # Link the executable potato
 
-build potato: CXX_EXECUTABLE_LINKER__potato_Debug CMakeFiles/potato.dir/main.cpp.o
+build potato: CXX_EXECUTABLE_LINKER__potato_Debug CMakeFiles/potato.dir/fileRunner.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/potato.dir
   POST_BUILD = :

@@ -1,5 +1,9 @@
-# Potato Lang 1.0.2
+# Potato Lang 1.0.4
 By aPpLegUo
+
+## Now We Have File Parser To Replace Input
+## `helloworld.potato` This is a example (but you must write all of that file path)
+
 
 ### i 
 get input
@@ -39,7 +43,7 @@ a mod b
 ### lol
 LOL😂
 ### patota
-patota(this code you must try by yourself)
+patota `(this code you must try by yourself)`
 ## just that
 ### ennn...yeah
 ### Hello World
